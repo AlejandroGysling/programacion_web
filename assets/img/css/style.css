@@ -1,0 +1,32 @@
+body {
+    background-color: black;/*cambio el color del body */
+}
+
+.titulo /* .titulo, el punto indica que es una clase*/
+    {color:rgb(255, 60, 0);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid blue;
+    text-align:center
+    }
+
+ul/*propiedad que permite editar la lista de formal vertical a horizontal*/ 
+    {
+    background-color: blue;
+    list-style-type: none;
+    margin: 0;
+    /*margin-top: 100px; (con esto le doy margen de espacio) */
+    padding: 25px;
+    }
+li
+   {
+   display: inline; 
+   margin-left: 25px; /*margin-left para hacer espacio a los lados*/
+   font-size: 25px;
+   }
+
+li a
+    {
+        text-decoration: none;/*con esto le quito subrayado cuando le hago click a los links*/
+        color: white; /*cambio el color del texto*/
+    }
